@@ -1,0 +1,222 @@
+body,
+html {
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat", sans-serif;
+}
+
+#head {
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	position: fixed;
+	margin: 0;
+	top: 0;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.flavours {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+	padding-left: 0;
+	width: 80%;
+}
+.flavours li {
+	padding: 0.5rem 0.8rem;
+	background-color: aquamarine;
+}
+
+.flavours li:nth-child(1) {
+	border-radius: 1rem 0 0 1rem;
+}
+
+.flavours li:nth-child(3) {
+	border-radius: 0 1rem 1rem 0;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+nav ul li {
+	padding: 10px;
+}
+nav ul li a {
+	font-size: 20px;
+	color: white;
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+#landingpage {
+	top: 0;
+	margin-top: -20px;
+	height: 80vh;
+	background: -webkit-linear-gradient(
+		90deg,
+		rgba(204, 43, 94, 1) 0%,
+		rgba(117, 58, 136, 1) 100%
+	);
+	background: linear-gradient(
+		90deg,
+		rgba(204, 43, 94, 1) 0%,
+		rgba(117, 58, 136, 1) 100%
+	);
+
+	display: flex;
+	flex-direction: row;
+	padding: 8rem 0 0rem 10rem;
+	justify-content: center;
+	align-items: center;
+}
+
+.heading {
+	font-family: "Water Brush", cursive;
+	font-size: 5rem;
+	color: white;
+}
+
+.subText {
+	width: 80%;
+	font-size: 1.5rem;
+	color: #e7e7e7;
+	font-family: "Montserrat", sans-serif;
+}
+
+.info {
+	flex: 0.6;
+	display: flex;
+	flex-direction: column;
+}
+
+.banner {
+	/* flex: 0.4; */
+}
+
+.banner img {
+	width: 100%;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+		rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+		rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	border-radius: 1rem;
+}
+
+#About {
+	display: flex;
+	padding: 4rem 0;
+	flex-direction: column;
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	margin: 2rem 0;
+	padding: 2rem;
+}
+
+.row:nth-child(2) {
+	background-color: black;
+	color: white;
+	background-attachment: fixed;
+}
+
+.aboutImage {
+	flex: 0.4;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.aboutImage img {
+	width: 100%;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	border-radius: 1rem;
+}
+
+.aboutText {
+	flex: 0.4;
+}
+
+.aboutText span {
+	width: 80%;
+	font-size: 2.75rem;
+}
+
+#Contact {
+	background: linear-gradient(
+			180deg,
+			rgba(255, 255, 255, 0.5) 0%,
+			rgba(255, 255, 255, 0.8) 100%
+		),
+		url("./images/holding\ product.jpeg");
+	background-size: cover;
+	background-attachment: fixed;
+	height: 60vh;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.bannerHead {
+	font-size: 3.5rem;
+	margin-bottom: 3rem;
+	font-family: 'Ms Madi', cursive;
+
+}
+
+.formHead {
+	font-size: 2.75rem;
+}
+
+.form {
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 1rem;
+	border-radius: 0.5rem;
+}
+
+#contactForm {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.input {
+	border-radius: 0.5rem;
+	width: 200px;
+	font-size: 1.2rem;
+	margin: 0.5rem 0;
+}
+
+.btn {
+	width: 150px;
+	height: 50px;
+	text-align: center;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	border-radius: 0.5rem;
+}
+
+#footer {
+	height: 30vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
